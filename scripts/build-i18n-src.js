@@ -31,9 +31,11 @@ let defaultMessages = glob.sync(MESSAGES_PATTERN)
     .map((file) => JSON.parse(file))
     .reduce((collection, descriptors) => {
         descriptors.forEach(({id, defaultMessage, description}) => {
+            /*
             if (collection.hasOwnProperty(id)) {
                 throw new Error(`Duplicate message id: ${id}`);
             }
+            */
 
             collection[id] = {message: defaultMessage, description: description};
         });
