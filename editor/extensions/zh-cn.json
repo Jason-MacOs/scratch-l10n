@@ -294,5 +294,41 @@
     "music.drumClaves": {
         "message": "(9) 音棒",
         "description": "Sound of claves being struck together"
+    },
+    "arduino.startArduino": {
+        "message": "Arduino程序",
+        "description": "Start Arduino program."
+    },
+    "arduino.readDigital": {
+        "message": "读 数字口[DIGITAL]",
+        "description": "Read digital pin"
+    },
+    "arduino.readAnalog": {
+        "message": "读 模拟口[ANALOG]",
+        "description": "Read analog pin"
+    },
+    "arduino.setDigitalPinOutput": {
+        "message": "设置 数字口[PIN] 输出为[OUTPUT]",
+        "description": "Set digital pin output"
+    },
+    "arduino.setPwmPinOutput": {
+        "message": "设置 PWM口[PIN] 输出为[OUTPUT]",
+        "description": "Set PWM pin output"
+    },
+    "arduino.playTonePin": {
+        "message": "播放 引脚[PIN] 音调为[NOTE] 节拍为[BEAT]",
+        "description": "Play tone pin"
+    },
+    "arduino.setServoPinAngle": {
+        "message": "设置 舵机引脚[PIN] 输出角度为[ANGLE]",
+        "description": "Set servo pin angle"
+    },
+    "arduino.writeTextToSerial": {
+        "message": "输出 文本[TEXT] 至串口",
+        "description": "Write text to serial"
+    },
+    "arduino.readUltrasonic": {
+        "message": "读取 超声波传感器 Trig引脚[TRIG] Echo引脚[ECHO]",
+        "description": "Read ultrasonic pin"
     }
 }
