@@ -710,5 +710,13 @@
     "gui.prompt.cancel": {
         "message": "取消",
         "description": "Button in prompt for cancelling the dialog"
+    },
+    "gui.controls.run": {
+        "message": "运行",
+        "description": "Run Arduino button title"
+    },
+    "gui.controls.compile": {
+        "message": "编译",
+        "description": "Compile Arduino button title"
     }
 }
