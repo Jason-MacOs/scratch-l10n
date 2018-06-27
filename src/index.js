@@ -13,7 +13,6 @@ for (const lang in customLocales) {
     localeData.push(customLocales[lang]);
 }
 */
-console.debug('wtf');
 let localeData = {};
 localeData.en = en;
 localeData['zh'] = zh;
