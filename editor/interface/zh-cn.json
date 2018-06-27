@@ -710,5 +710,25 @@
     "gui.prompt.cancel": {
         "message": "取消",
         "description": "Button in prompt for cancelling the dialog"
+    },
+    "gui.controls.run": {
+        "message": "运行",
+        "description": "Run Arduino button title"
+    },
+    "gui.controls.compile": {
+        "message": "编译",
+        "description": "Compile Arduino button title"
+    },
+    "gui.controls.uploadCode": {
+        "message": "上传代码",
+        "description": "Upload Arduino Code button title"
+    },
+    "gui.popup.remove": {
+        "message": "关闭",
+        "description": "Buttom in popup for closing the code popup"
+    },
+    "gui.popup.submit": {
+        "message": "上传代码",
+        "description": "Buttom in popup for submiting code"
     }
 }
