@@ -176,7 +176,7 @@
         "description": "Menu bar item for creating a new project"
     },
     "gui.customProcedures.addALabel": {
-        "message": "添加文本标签：",
+        "message": "添加文本标签",
         "description": "Label for button to add a label"
     },
     "gui.soundEditor.trim": {
