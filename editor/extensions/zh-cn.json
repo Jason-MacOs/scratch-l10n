@@ -304,7 +304,7 @@
         "description": "Read digital pin"
     },
     "arduino.readAnalog": {
-        "message": "读 模拟口[ANALOG]",
+        "message": "读 模拟口A [ANALOG]",
         "description": "Read analog pin"
     },
     "arduino.setDigitalPinOutput": {
@@ -316,7 +316,7 @@
         "description": "Set PWM pin output"
     },
     "arduino.playTonePin": {
-        "message": "播放 引脚[PIN] 音调为[NOTE] 节拍为[BEAT]",
+        "message": "播放 引脚[PIN] 音调为[NOTE] 节拍为[BEAT]拍",
         "description": "Play tone pin"
     },
     "arduino.setServoPinAngle": {
