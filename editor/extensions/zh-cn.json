@@ -304,22 +304,34 @@
         "description": "Read digital pin"
     },
     "arduino.readAnalog": {
-        "message": "读 模拟口A [ANALOG]",
+        "message": "读 模拟口A[ANALOG]",
         "description": "Read analog pin"
     },
-    "arduino.setDigitalPinOutput": {
+    "arduino.setDigitalOutput": {
         "message": "设置 数字口[PIN] 输出为[OUTPUT]",
         "description": "Set digital pin output"
     },
-    "arduino.setPwmPinOutput": {
+    "arduino.setPwmOutput": {
         "message": "设置 PWM口[PIN] 输出为[OUTPUT]",
         "description": "Set PWM pin output"
     },
-    "arduino.playTonePin": {
+    "arduino.setPlaySpeed": {
+        "message": "设置演奏速度为 [BPM]拍/分钟",
+        "description": "Set play speed to beats per minute."
+    },
+    "arduino.rest": {
+        "message": "休止 [BEAT]拍",
+        "description": "Rest for XX beats."
+    },
+    "arduino.playToneTillEnd": {
+        "message": "播放 引脚[PIN] 音调为[NOTE]节拍为[BEAT]拍 直到播放完毕",
+        "description": "Play tone pin till end"
+    },
+    "arduino.playTone": {
         "message": "播放 引脚[PIN] 音调为[NOTE] 节拍为[BEAT]拍",
         "description": "Play tone pin"
     },
-    "arduino.setServoPinAngle": {
+    "arduino.setServoAngle": {
         "message": "设置 舵机引脚[PIN] 输出角度为[ANGLE]",
         "description": "Set servo pin angle"
     },
@@ -330,5 +342,25 @@
     "arduino.readUltrasonic": {
         "message": "读取 超声波传感器 Trig引脚[TRIG] Echo引脚[ECHO]",
         "description": "Read ultrasonic pin"
+    },
+    "arduino.readTemperature": {
+        "message": "读取 温度传感器 Dat引脚[DAT]",
+        "description": "Read temperature from pin"
+    },
+    "arduino.readTime": {
+        "message": "读取 时钟模块 当前时间",
+        "description": "Read current time from RTC"
+    },
+    "arduino.setTime": {
+        "message": "自动校准 时钟模块",
+        "description": "Set current time"
+    },
+    "arduino.set4DigitalTube": {
+        "message": "设置 数码管 CLK引脚[CLK] DIO引脚[DIO] 显示时间[TIME]",
+        "description": "Set tube display time 00:00"
+    },
+    "arduino.readGestureSensor": {
+        "message": "读取 手势传感器 引脚[PIN]",
+        "description": "Read direction from gesture sensor."
     }
 }

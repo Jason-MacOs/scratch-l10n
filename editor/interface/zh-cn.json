@@ -723,6 +723,10 @@
         "message": "保存代码",
         "description": "Save Arduino Code button title"
     },
+    "gui.controls.serialPort": {
+        "message": "查看串口",
+        "description": "Serial output"
+    },
     "gui.popup.remove": {
         "message": "关闭",
         "description": "Buttom in popup for closing the code popup"
