@@ -299,6 +299,14 @@
         "message": "Arduino程序",
         "description": "Start Arduino program."
     },
+    "arduino.setupArduino": {
+        "message": "初始化",
+        "description": "Function setup() of Arduino."
+    },
+    "arduino.loopArduino": {
+        "message": "循环",
+        "description": "Function loop() of Arduino."
+    },
     "arduino.readDigital": {
         "message": "读 数字口[DIGITAL]",
         "description": "Read digital pin"
@@ -360,7 +368,115 @@
         "description": "Set tube display time 00:00"
     },
     "arduino.readGestureSensor": {
-        "message": "读取 手势传感器 引脚[PIN]",
+        "message": "读取 手势传感器 INT引脚[PIN]",
         "description": "Read direction from gesture sensor."
+    },
+    "arduino.lcd.create": {
+        "message": "设置LCD屏的RS引脚[RS] E(Enable)引脚[E] D4引脚[D4] D5引脚[D5] D6引脚[D6] D7引脚[D7]",
+        "description": "Set LCD screen"
+    },
+    "arduino.lcd.begin": {
+        "message": "设置LCD的尺寸 宽 [COLS]列 高 [ROWS]行",
+        "description": "Set LCD size"
+    },
+    "arduino.lcd.clear": {
+        "message": "显示屏清零",
+        "description": "Clear LCD screen"
+    },
+    "arduino.lcd.resetCursor": {
+        "message": "重置光标",
+        "description": "Reset LCD cursor"
+    },
+    "arduino.lcd.setCursor": {
+        "message": "定位光标位置到 [COL]列 [ROW]行",
+        "description": "Set LCD cursor position."
+    },
+    "arduino.lcd.write": {
+        "message": "LCD显示屏写入数据[DATA]",
+        "description": ""
+    },
+    "arduino.lcd.print": {
+        "message": "LCD显示屏显示数据[DATA]",
+        "description": ""
+    },
+    "arduino.lcd.printBase": {
+        "message": "LCD显示屏显示[BASE]的数据[DATA]",
+        "description": ""
+    },
+    "arduino.lcd.cursorVisible": {
+        "message": "LCD显示屏[VISIBLE]光标",
+        "description": ""
+    },
+    "arduino.lcd.cursorBlink": {
+        "message": "LCD显示屏使光标[BLINK]",
+        "description": ""
+    },
+    "arduino.lcd.display": {
+        "message": "LCD显示屏[DISPLAY]显示",
+        "description": ""
+    },
+    "arduino.lcd.scrollSide": {
+        "message": "LCD显示屏向[SIDE]滚动一个字符",
+        "description": ""
+    },
+    "arduino.lcd.autoScroll": {
+        "message": "LCD显示屏[ENABLED]自动滚动",
+        "description": ""
+    },
+    "arduino.lcd.BIN": {
+        "message": "二进制",
+        "description": ""
+    },
+    "arduino.lcd.OCT": {
+        "message": "八进制",
+        "description": ""
+    },
+    "arduino.lcd.DEC": {
+        "message": "十进制",
+        "description": ""
+    },
+    "arduino.lcd.HEX": {
+        "message": "十六进制",
+        "description": ""
+    },
+    "arduino.lcd.visible.yes": {
+        "message": "显示",
+        "description": ""
+    },
+    "arduino.lcd.visible.no": {
+        "message": "隐藏",
+        "description": ""
+    },
+    "arduino.lcd.blink.yes": {
+        "message": "闪烁",
+        "description": ""
+    },
+    "arduino.lcd.blink.no": {
+        "message": "静止",
+        "description": ""
+    },
+    "arduino.lcd.display.yes": {
+        "message": "开启",
+        "description": ""
+    },
+    "arduino.lcd.display.no": {
+        "message": "关闭",
+        "description": ""
+    },
+    "arduino.lcd.enabled.yes": {
+        "message": "开启",
+        "description": ""
+    },
+    "arduino.lcd.enabled.no": {
+        "message": "关闭",
+        "description": ""
+    },
+    "arduino.lcd.sides.left": {
+        "message": "左",
+        "description": ""
+    },
+    "arduino.lcd.sides.right": {
+        "message": "右",
+        "description": ""
     }
 }
